@@ -11,6 +11,7 @@ public class Program {
 		
 		Locale.setDefault(Locale.US);
 		Scanner scanner = new Scanner(System.in);
+		
 		System.out.print("How much products will we use to calculate the average price? ");
 		int quantity = scanner.nextInt();
 		Product[] product = new Product[quantity];
